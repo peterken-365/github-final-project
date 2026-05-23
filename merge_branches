@@ -1,0 +1,8 @@
+$ git merge main
+Already up to date.
+
+$ git merge bug-fix-typo
+Auto-merging simple-interest.sh
+Merge made by the 'ort' strategy.
+ simple-interest.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
