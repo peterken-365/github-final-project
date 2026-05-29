@@ -1,0 +1,19 @@
+$ git branch -a
+  bug-fix-typo
+* feature-update
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/feature-update
+  remotes/origin/main
+
+$ git branch -v
+  bug-fix-typo   22aff2f Fix typo: Addtional -> Additional
+* feature-update 6958ffe Merge branch 'bug-fix-typo' into feature-update
+  main           ad95b0a Create close_pr.yml
+
+$ git branch -r -v
+  origin/HEAD           -> origin/main
+  origin/bug-fix-typo   22aff2f Fix typo: Addtional -> Additional
+  origin/feature-update 6958ffe Merge branch 'bug-fix-typo' into feature-update
+  origin/main           ad95b0a Create close_pr.yml
