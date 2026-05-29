@@ -1,19 +1,23 @@
 $ git branch -a
+  bug-fix
   bug-fix-typo
-* feature-update
-  main
+  feature-update
+* main
   remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix
   remotes/origin/bug-fix-typo
   remotes/origin/feature-update
   remotes/origin/main
 
 $ git branch -v
+  bug-fix        87bc895 Update README.md author
   bug-fix-typo   22aff2f Fix typo: Addtional -> Additional
-* feature-update 6958ffe Merge branch 'bug-fix-typo' into feature-update
-  main           ad95b0a Create close_pr.yml
+  feature-update 6958ffe Merge branch 'bug-fix-typo' into feature-update
+* main           87bc895 Update README.md author
 
 $ git branch -r -v
   origin/HEAD           -> origin/main
+  origin/bug-fix        87bc895 Update README.md author
   origin/bug-fix-typo   22aff2f Fix typo: Addtional -> Additional
   origin/feature-update 6958ffe Merge branch 'bug-fix-typo' into feature-update
-  origin/main           ad95b0a Create close_pr.yml
+  origin/main           87bc895 Update README.md author
