@@ -1,14 +1,14 @@
-curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8089
+curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8090
 
 {
-  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8089",
-  "id": 3770092376,
-  "node_id": "PR_kwDOPpkpv87gtwtY",
-  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8089",
-  "diff_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8089.diff",
-  "patch_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8089.patch",
-  "issue_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8089",
-  "number": 8089,
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8090",
+  "id": 3770331520,
+  "node_id": "PR_kwDOPpkpv87gurGA",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8090",
+  "diff_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8090.diff",
+  "patch_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8090.patch",
+  "issue_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8090",
+  "number": 8090,
   "state": "open",
   "locked": false,
   "title": "Fix typo in simple-interest.sh",
@@ -34,26 +34,26 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
     "site_admin": false
   },
   "body": "This PR fixes the typo Addtional -> Additional in simple-interest.sh",
-  "created_at": "2026-05-29T16:02:45Z",
-  "updated_at": "2026-05-29T16:02:45Z",
+  "created_at": "2026-05-29T16:46:40Z",
+  "updated_at": "2026-05-29T16:46:40Z",
   "closed_at": null,
   "merged_at": null,
-  "merge_commit_sha": "e79718dd386dfaefb4d4de9bac8b5bb4e443bf1f",
+  "merge_commit_sha": "75a57178c7f8ad3b855ac992d3b535de6751b235",
   "assignees": [],
   "requested_reviewers": [],
   "requested_teams": [],
   "labels": [],
   "milestone": null,
   "draft": false,
-  "commits_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8089/commits",
-  "review_comments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8089/comments",
+  "commits_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8090/commits",
+  "review_comments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8090/comments",
   "review_comment_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/comments{/number}",
-  "comments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8089/comments",
-  "statuses_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/statuses/22aff2f382ce38b368552aea83ba73af2a0fabc3",
+  "comments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8090/comments",
+  "statuses_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/statuses/35c4bdf25e11a4edea927681f274e3ffcb93342a",
   "head": {
-    "label": "peterken-365:bug-fix-typo",
-    "ref": "bug-fix-typo",
-    "sha": "22aff2f382ce38b368552aea83ba73af2a0fabc3",
+    "label": "peterken-365:bugfix/typo",
+    "ref": "bugfix/typo",
+    "sha": "35c4bdf25e11a4edea927681f274e3ffcb93342a",
     "user": {
       "login": "peterken-365",
       "id": 175626230,
@@ -143,8 +143,8 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
       "releases_url": "https://api.github.com/repos/peterken-365/mcino-Introduction-to-Git-and-GitHub/releases{/id}",
       "deployments_url": "https://api.github.com/repos/peterken-365/mcino-Introduction-to-Git-and-GitHub/deployments",
       "created_at": "2026-05-23T18:22:09Z",
-      "updated_at": "2026-05-23T18:22:09Z",
-      "pushed_at": "2026-05-23T18:30:45Z",
+      "updated_at": "2026-05-29T16:38:45Z",
+      "pushed_at": "2026-05-29T16:38:39Z",
       "git_url": "git://github.com/peterken-365/mcino-Introduction-to-Git-and-GitHub.git",
       "ssh_url": "git@github.com:peterken-365/mcino-Introduction-to-Git-and-GitHub.git",
       "clone_url": "https://github.com/peterken-365/mcino-Introduction-to-Git-and-GitHub.git",
@@ -153,7 +153,7 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
       "size": 18,
       "stargazers_count": 0,
       "watchers_count": 0,
-      "language": null,
+      "language": "Python",
       "has_issues": false,
       "has_projects": true,
       "has_downloads": true,
@@ -168,7 +168,9 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
       "license": {
         "key": "apache-2.0",
         "name": "Apache License 2.0",
-        "spdx_id": "Apache-2.0"
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
       },
       "allow_forking": true,
       "is_template": true,
@@ -293,7 +295,7 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 7024,
+      "forks_count": 7027,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -301,7 +303,9 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
       "license": {
         "key": "apache-2.0",
         "name": "Apache License 2.0",
-        "spdx_id": "Apache-2.0"
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
       },
       "allow_forking": true,
       "is_template": true,
@@ -310,7 +314,7 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
       "pull_request_creation_policy": "all",
       "topics": [],
       "visibility": "public",
-      "forks": 7024,
+      "forks": 7027,
       "open_issues": 30,
       "watchers": 11,
       "default_branch": "main"
@@ -318,28 +322,28 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
   },
   "_links": {
     "self": {
-      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8089"
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8090"
     },
     "html": {
-      "href": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8089"
+      "href": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8090"
     },
     "issue": {
-      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8089"
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8090"
     },
     "comments": {
-      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8089/comments"
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/8090/comments"
     },
     "review_comments": {
-      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8089/comments"
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8090/comments"
     },
     "review_comment": {
       "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/comments{/number}"
     },
     "commits": {
-      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8089/commits"
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8090/commits"
     },
     "statuses": {
-      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/statuses/22aff2f382ce38b368552aea83ba73af2a0fabc3"
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/statuses/35c4bdf25e11a4edea927681f274e3ffcb93342a"
     }
   },
   "author_association": "NONE",
@@ -349,13 +353,13 @@ curl -s -H "Authorization: token <your-token>" https://api.github.com/repos/ibm-
   "merged": false,
   "mergeable": true,
   "rebaseable": true,
-  "mergeable_state": "clean",
+  "mergeable_state": "unstable",
   "merged_by": null,
   "comments": 0,
   "review_comments": 0,
   "maintainer_can_modify": true,
-  "commits": 1,
-  "additions": 1,
-  "deletions": 1,
-  "changed_files": 1
+  "commits": 2,
+  "additions": 2,
+  "deletions": 2,
+  "changed_files": 2
 }
